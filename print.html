@@ -37,7 +37,7 @@
                 <a href="https://www.linkedin.com/in/charbel-tamer-5a64b122a/" target="_blank"
                     rel="noopener">LinkedIn</a>
                 <a href="https://github.com/MrKali961" target="_blank" rel="noopener">GitHub</a>
-                <a href="./print.html" target="">Print Resume</a>
+                <a href="#" class="print" target="">Print Resume</a>
             </div>
         </section>
 
@@ -99,58 +99,77 @@
             <div class="line-break"></div>
         </section>
 
-        <section class="section--page">
-            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
-                        aria-selected="true">Education</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
-                        aria-selected="false">Licenses & certifications</button>
-                </li>
+        <section id="work-history-wrapper" class="section--page">
+            <h2>Education</h2>
 
-            </ul>
-            <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
-                    tabindex="0">
-                    <div class="card--work-history">
-                        <strong>Lebanese Univeristy</strong>
-                        <p>Master's Degree in Information Systems / Business Informatics</p>
-                        <p>2019 - 2023</p>
-                        <p>GPA: 80/100</p>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
-                    tabindex="0">
-                    <div class="card--work-history">
-                        <strong>Software architecture</strong>
-                        <p>Organization: Udemy</p>
-                        <p><a href="https://ude.my/UC-965f3cd5-911c-464e-b3ad-78fea066fecc">Credential URL</a></p>
-                    </div>
-                    <div class="card--work-history">
-                        <strong>Crash Course on Python</strong>
-                        <p>Organization: Google</p>
-                        <p><a href="https://coursera.org/verify/4NRMV76CSBNG">Credential URL</a></p>
-                    </div>
-                </div>
+            <div class="line-break"></div>
+            <div class="card--work-history">
+                <strong>Lebanese Univeristy</strong>
+                <p>Master's Degree in Information Systems / Business Informatics</p>
+                <ul>
+                    <li>2019 - 2024</li>
+                    <li>GPA: 80/100</li>
+                </ul>
             </div>
+            <div class="line-break"></div>
+        </section>
+        <section id="work-history-wrapper" class="section--page">
+            <h2>Licenses & Certifications</h2>
+
+            <div class="line-break"></div>
+            <div class="card--work-history">
+                <strong>Software architecture</strong>
+                <ul>
+                    <li>Organization: Udemy</li>
+                    <li><a href="https://ude.my/UC-965f3cd5-911c-464e-b3ad-78fea066fecc">Credential URL</a></li>
+                </ul>
+            </div>
+            <div class="line-break"></div>
+            <div class="card--work-history">
+                <strong>Crash Course on Python</strong>
+                <ul>
+                    <li>Organization: Google</li>
+                    <li><a href="https://coursera.org/verify/4NRMV76CSBNG">Credential URL</a></li>
+                </ul>
+            </div>
+            <div class="line-break"></div>
         </section>
 
         <section class="section--page">
             <h2>Projects & Accomplishments</h2>
             <p>Each project is a private repository in my GitHub account</p>
-            <div class="container text-center">
-                <div class="row">
+            <table class="table table-dark table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody">
                     <!-- JSON -->
-                </div>
-            </div>
+                </tbody>
+            </table>
         </section>
-
     </div>
 
+    <div class="modal" tabindex="-1" id="printModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-primary">Print Resume</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Are you sure you want to print the resume?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary print" data-bs-dismiss="modal">Print</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
