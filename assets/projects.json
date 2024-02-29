@@ -1,56 +1,68 @@
 [
     {
-        "id":1,
-        "name":"AI Email Spam Detection",
+        "id": 1,
+        "name": "AI Email Spam Detection",
         "src": "assets/images/aispamdetection.png",
-        "description":"AI model built using Python & TensorFlow to check if the email is going to inbox or spam"
+        "description": "AI model built using Python & TensorFlow to check if the email is going to inbox or spam"
     },
     {
-        "id":2,
-        "name":"Wifi Deauthentication attack tool",
+        "id": 2,
+        "name": "Wifi Deauthentication attack tool",
         "src": "assets/images/wifideauth.jpg",
-        "description":"Wifi Deauthentication tool built using Python and wireless packages in Linux"
+        "description": "Wifi Deauthentication tool built using Python and wireless packages in Linux"
     },
     {
-        "id":3,
-        "name":"Organisation Management System (SDL Haref-Ardeh)",
+        "id": 3,
+        "name": "Organisation Management System (SDL Haref-Ardeh)",
         "src": "assets/images/sdl.jpg",
-        "description":"A management system for a scout organisation to manage all aspects of activities and assets. This project is built using Java, Swing, PL/SQL, SQL"
+        "description": "A management system for a scout organisation to manage all aspects of activities and assets. This project is built using Java, Swing, PL/SQL, SQL"
     },
     {
-        "id":4,
-        "name":"Business Management & POS System (The Craving House)",
+        "id": 4,
+        "name": "Business Management & POS System (The Craving House)",
         "src": "assets/images/thecravinghouse.png",
-        "description":"A private system and POS to manage and track all kind of finacial activities for a business. This project is built using Java, Swing, PL/SQL, SQL"
+        "description": "A private system and POS to manage and track all kind of finacial activities for a business. This project is built using Java, Swing, PL/SQL, SQL"
     },
     {
-        "id":5,
-        "name":"Jewelery Business Management System (Issa Haddad Jewelery)",
+        "id": 5,
+        "name": "Jewelery Business Management System (Issa Haddad Jewelery)",
         "src": "assets/images/issahaddad.png",
-        "description":"A private system to manage and track everything related to the jewelery business. This project is built using Java, Swing, PL/SQL, SQL"
+        "description": "A private system to manage and track everything related to the jewelery business. This project is built using Java, Swing, PL/SQL, SQL"
     },
     {
-        "id":6,
-        "name":"Business Management & POS System (Al Jinane Roastery)",
+        "id": 6,
+        "name": "Business Management & POS System (Al Jinane Roastery)",
         "src": "assets/images/aljinaneroastery.jpg",
-        "description":"A private system and POS to manage and track all kind of finacial activities for a business. This project is built using Java, Swing, PL/SQL, SQL"
+        "description": "A private system and POS to manage and track all kind of finacial activities for a business. This project is built using Java, Swing, PL/SQL, SQL"
     },
     {
-        "id":7,
-        "name":"Business Website (TopCab Joinery)",
+        "id": 7,
+        "name": "Business Website (TopCab Joinery)",
         "src": "assets/images/topcab.png",
-        "description":"Topcab Kitchens & Joinery, Joiner in Wetherill Park, Australia. Built using HTML, CSS, JS, Bootstrap, JSON"
+        "description": "Topcab Kitchens & Joinery, Joiner in Wetherill Park, Australia. Built using HTML, CSS, JS, Bootstrap, JSON"
     },
     {
-        "id":8,
-        "name":"Hello Friend (Senior Year Project)",
+        "id": 8,
+        "name": "Hello Friend (Senior Year Project)",
         "src": "assets/images/hellofriend.jpg",
-        "description":"A real-time chatting desktop application that uses its own server and signup page, built using Java, Swing, Socket, SQL, PL/SQL, HTML, CSS, JS and PHP"
+        "description": "A real-time chatting desktop application that uses its own server and signup page, built using Java, Swing, Socket, SQL, PL/SQL, HTML, CSS, JS and PHP"
     },
     {
-        "id":9,
-        "name":"Digital Resume",
+        "id": 9,
+        "name": "Bayt Setti",
+        "src": "assets/images/bayt-setti.jpg",
+        "description": "A fully functional management system for a 5 branches restaurant. This project is built using Flutter, Dart"
+    },
+    {
+        "id": 10,
+        "name": "GlobalBuild Solutions SAL",
+        "src": "assets/images/GBSSAL.png",
+        "description": "A Lebanese Australian company that provides a wide range of services in the construction industry. Built using HTML, CSS, JS, Bootstrap, JSON"
+    },
+    {
+        "id": 11,
+        "name": "Digital Resume",
         "src": "assets/images/profile.jpeg",
-        "description":"Built using HTML, CSS, JS and JSON"
+        "description": "Built using HTML, CSS, JS and JSON"
     }
 ]
