@@ -61,6 +61,12 @@
     },
     {
         "id": 11,
+        "name": "Business Management & POS System (Salt and Pepper)",
+        "src": "assets/images/saltandpepper.jpg",
+        "description": "A private system and POS to manage and track all kind of finacial activities for a business. This project is built using Java, Swing, PL/SQL, SQL"
+    },
+    {
+        "id": 12,
         "name": "Digital Resume",
         "src": "assets/images/profile.jpeg",
         "description": "Built using HTML, CSS, JS and JSON"
