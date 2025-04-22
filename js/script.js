@@ -2,12 +2,14 @@ function fetchData() {
   var currentURL = window.location.pathname;
   var currentPageName = currentURL.substring(currentURL.lastIndexOf("/") + 1);
   console.log("Current page name: " + currentPageName);
+
   if (currentPageName === "print.html") {
     const container = document.querySelector("tbody");
 
     fetch("./assets/projects.json")
       .then((response) => response.json())
       .then((data) => {
+        data.sort((a, b) => a.id - b.id);
         data.forEach((item) => {
           const html = `<tr>
                       <th scope="row">${item.id}</th>
@@ -26,6 +28,7 @@ function fetchData() {
       var myModal = new bootstrap.Modal(document.getElementById("printModal"));
       myModal.show();
     });
+
     document.querySelectorAll(".print").forEach((btn) => {
       btn.addEventListener("click", function () {
         window.print();
@@ -33,9 +36,11 @@ function fetchData() {
     });
   } else {
     const container = document.querySelector(".row");
+
     fetch("./assets/projects.json")
       .then((response) => response.json())
       .then((data) => {
+        data.sort((a, b) => a.id - b.id);
         data.forEach((item) => {
           const html = `<div class="col">
                             <div class="card" style="width: 18rem; height:100%">
